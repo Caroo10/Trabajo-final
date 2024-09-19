@@ -3,7 +3,7 @@
     <thead>
         <tr>
             <td rowspan="3">
-                <img alt="Gojo" height="200px" src="https://raw.githubusercontent.com/Caroo10/Trabajo-final/main/images/gojo.jpg" hspace="10px" vspace="0px">
+                <img alt="Gojo" height="350px" src="https://raw.githubusercontent.com/Caroo10/Trabajo-final/main/images/gojo.jpg" hspace="20px" vspace="0px">
             </td>
             <td align="center">
                 <h1><b>Programación y Algoritmia</b></h1>

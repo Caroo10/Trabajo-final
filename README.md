@@ -82,8 +82,10 @@ Procedimientos (Entregables)
 >>*   Revisión de Actas: Las actas pueden ser revisadas y modificadas con el consentimiento de todos los miembros del grupo, según sea necesario para reflejar cambios en el proyecto o en la dinámica del equipo.
 >*  #### Resolución de Conflictos
 >>*   En caso de desacuerdos o conflictos, el grupo deberá referirse al Acta de Colaboración para resolver la situación mediante los mecanismos previamente acordados. Si no se llega a una resolución, se consultará con el del curso para mediación.
+>* **##2.Vinculos academicos y  descripción.**
+>>*   Soy Santiago Giraldo, pertenezco al programa de Ingeniería Indsutrial, mi mayor fortaleza es el ingles donde tengo un certificado en B2, además tengo la habilidad de trabajar muy bien en equipo logrando una sinergia con los demás.  Soy Marlon Atehortua, curso el programa de Ingeniería Industrial, la habilidad principal mia es la resolucion de conflictos y la fortaleza  es que me adapto a las circunstancias para poder lograr los objtevios propuestos. Soy carolina Ortega, me encuentro en el programa de Ingeniería Industrial(tu habilidad y fortaleza)
 ## **3.	Nombre del proyecto y detalles**
-
+ El nombre del programa es Medícalo, trata sobre la gestion de turnos en un hospital, para optimizar los tiempos y los recursos necesarios para tener una mayor calidad a la hora de atender a los pacientes, dandole información detallada de su cita, 
 Describir el proyecto en pocas líneas y asignarle un nombre con una foto representativa del nombre del proyecto (no es una foto de los integrantes).
 ## **4.	Licencia del software**
 
@@ -91,15 +93,59 @@ Definir la licencia con la cual registra el software. https://chooser-beta.creat
 
 `Ingresar la licencia a utilizar aquí`
 ## **5.	Reporte de visión**
+**Descripción general del software**:
 
-Proporciona una descripción general del software, sus objetivos y beneficios.
-`Ingresar el reporte de visión aquí`
+El programa que se desarrollará será una solución para gestionar de manera eficiente la atención de los pacientes, debido a que actualmente, el proceso es manual, generando horas de esperas y mala calidad de atención para los pacientes. Este software tendrá como objetivo mejorar la organización y asignación de turnos, permitiendo que la atención sea más fluida, priorizada y ordenada. El programa funcionará en consola. A través de esta, se gestionará la llegada de los pacientes, su registro en un sistema que rastrea su recorrido por el proceso de atención, desde la entrada hasta su salida y se utilizará la información proporcionada por un sistema de citas preexistente.
+
+**Objetivos del software**:
+1. Automatizar el proceso de atención de citas.
+2. Gestionar eficientemente los turnos.
+3. Exportar información.
+4. Integrar con el sistema existente.
+   
+**Beneficios del software**:
+- Reducción de tiempos de espera.
+- Mejor experiencia para los pacientes.
+- Optimización del personal médico.
+- Facilidad de uso.
+- Acceso a datos históricos.
+
 ## **6.	Especificación de requisitos**
 
 Describe los requisitos funcionales y no funcionales del software.
 *   Los requisitos funcionales definen las acciones específicas, comportamientos, y operaciones que el software debe ejecutar para satisfacer las necesidades del usuario final.
 *   Los requisitos no funcionales especifican criterios que pueden usarse para juzgar la operación del sistema, más allá de los comportamientos específicos. Esto incluye aspectos como el rendimiento, seguridad, usabilidad, fiabilidad, y compatibilidad.
-`Ingresar la especificación de requisitos aquí`
+### **Requisitos Funcionales:**
+
+1. Gestión de citas y turnos:
+   - El sistema debe recibir los listados de pacientes, generados por el programa.
+   - El programa debe registrar la llegada de los pacientes, asignándoles un turno según el tipo de cita, el médico disponible y la prioridad del caso.
+   
+2. Registro de atención:
+   - El sistema debe rastrear y actualizar el estado de atención del paciente a medida que avanza en el proceso.
+   - Debe permitir visualizar la lista de pacientes en espera, ordenada por prioridad o tiempo de llegada.
+
+3. Exportación de datos:
+   - El sistema debe permitir la exportación de los datos de atención en un archivo, incluyendo detalles como la fecha, nombre del paciente, médico, y estado de la atención.
+   
+4. Notificación de cambios en el estado:
+   - El programa proporcionara notificaciones o actualizaciones dentro de la consola cuando el estado de un paciente cambie. 
+5. Interfaz amigable:
+   - El programa debe presentar una interfaz en consola fácil de usar para los administradores del sistema, que permita visualizar, buscar, y gestionar las citas de forma intuitiva.
+   
+### **Requisitos No Funcionales:**
+
+1. Rendimiento:
+   - El programa debe procesar y mostrar las listas de pacientes sin retardo significativos, incluso cuando se maneje una base de datos grande. 
+2. Usabilidad:
+   - Los mensajes de error deben ser concretos, guiando al usuario sobre cómo solucionar cualquier problema que se presente a la hora de agendar una cita o durante el proceso de esta.
+3. Compatibilidad:
+   - El programa debe ser compatible con diferentes sistemas operativos que soporten Python.
+5. Fiabilidad:
+   - El sistema debe registrar correctamente los datos de llegada, atención y exportación, sin pérdida de información o corrupción de los datos durante su funcionamiento.
+6. Seguridad:
+ - Aunque no es un sistema de alta seguridad, el software  garantiza que los datos exportados no sean manipulados sin autorización y que los archivos generados estén protegidos contra modificaciones no deseadas.
+
 ## **7.	Plan de proyecto**
 
 Describe las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del proyecto.

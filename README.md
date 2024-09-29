@@ -156,6 +156,6 @@ Exportación de datos: Subir lo datos.
 Pruebas y depuración: Hacer pruebas para encontrar errores funcionales del programa y depurarlos.
 Creación manual del usuario: Explicar cómo utilizar adecuadamente el programa.
 Entrega final: Entrega definitiva del programa.
-<img alt="Gojo" height="350px" src="https://raw.githubusercontent.com/Caroo10/Trabajo-final/main/images/gojo.jpg" hspace="20px" vspace="0px">
+<img alt="Gojo" height="350px" src="Diagrama.jpg" hspace="20px" vspace="0px">
 
 Para este proyecto se invertirán 84 horas trabajadas por 3 estudiantes de Ingeniería Industrial, lo que equivale a 1,68 SMLV.

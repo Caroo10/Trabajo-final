@@ -85,8 +85,7 @@ Procedimientos (Entregables)
 >* **##2.Vinculos academicos y  descripción.**
 >>*   Soy Santiago Giraldo, pertenezco al programa de Ingeniería Indsutrial, mi mayor fortaleza es el ingles donde tengo un certificado en B2, además tengo la habilidad de trabajar muy bien en equipo logrando una sinergia con los demás.  Soy Marlon Atehortua, curso el programa de Ingeniería Industrial, la habilidad principal mia es la resolucion de conflictos y la fortaleza  es que me adapto a las circunstancias para poder lograr los objtevios propuestos. Soy Carolina Ortega, me encuentro en el programa de Ingeniería Industrial, considero que mi habilidad más significativa es la tranquilidad y mi fortaleza es la empatía que tengo con los demás, permitiendome trabajar en equipo de manera exitosa.
 ## **3.	Nombre del proyecto y detalles**
- El nombre del programa es Medícalo, trata sobre la gestion de turnos en un hospital, para optimizar los tiempos y los recursos necesarios para tener una mayor calidad a la hora de atender a los pacientes, dandole información detallada de su cita, 
-Describir el proyecto en pocas líneas y asignarle un nombre con una foto representativa del nombre del proyecto (no es una foto de los integrantes).
+ El nombre del programa es Medícalo, trata sobre la gestion de turnos en un hospital, para optimizar los tiempos y los recursos necesarios para tener una mayor calidad a la hora de atender a los pacientes, dandole información detallada de su cita.
 ## **4.	Licencia del software**
 
 Definir la licencia con la cual registra el software. https://chooser-beta.creativecommons.org/

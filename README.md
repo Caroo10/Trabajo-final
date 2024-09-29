@@ -112,7 +112,6 @@ El programa que se desarrollará será una solución para gestionar de manera ef
 
 ## **6.	Especificación de requisitos**
 
-Describe los requisitos funcionales y no funcionales del software.
 *   Los requisitos funcionales definen las acciones específicas, comportamientos, y operaciones que el software debe ejecutar para satisfacer las necesidades del usuario final.
 *   Los requisitos no funcionales especifican criterios que pueden usarse para juzgar la operación del sistema, más allá de los comportamientos específicos. Esto incluye aspectos como el rendimiento, seguridad, usabilidad, fiabilidad, y compatibilidad.
 ### **Requisitos Funcionales:**
@@ -148,14 +147,14 @@ Describe los requisitos funcionales y no funcionales del software.
 
 ## **7.	Plan de proyecto**
 
--Actas: Realización de actas de entendimiento y compromiso en la fase inicial del proyecto.
--Entrega 1: Elaboración del entregable donde se describe de manera textual las intenciones y funcionabilidad del proyecto.
--Análisis de requisitos: Entendimiento de los requisitos exigidos para la correcta realización y ejecución del programa.
--Desarrollo del modelo: Producción del programa que se requiere crear.
--Exportación de datos: Subir lo datos.
--ruebas y depuración: Hacer pruebas para encontrar errores funcionales del programa y depurarlos.
--Creación manual del usuario: Explicar cómo utilizar adecuadamente el programa.
--Entrega final: Entrega definitiva del programa.
+-Actas: Realización de actas de entendimiento y compromiso en la fase inicial del proyecto.    
+-Entrega 1: Elaboración del entregable donde se describe de manera textual las intenciones y funcionabilidad del proyecto.    
+-Análisis de requisitos: Entendimiento de los requisitos exigidos para la correcta realización y ejecución del programa.    
+-Desarrollo del modelo: Producción del programa que se requiere crear.    
+-Exportación de datos: Subir lo datos.    
+-ruebas y depuración: Hacer pruebas para encontrar errores funcionales del programa y depurarlos.    
+-Creación manual del usuario: Explicar cómo utilizar adecuadamente el programa.    
+-Entrega final: Entrega definitiva del programa.    
 <img alt="Gojo" height="350px" src="Diagrama.jpg" hspace="20px" vspace="0px">
 
 Para este proyecto se invertirán 84 horas trabajadas por 3 estudiantes de Ingeniería Industrial, lo que equivale a 1,68 SMLV.

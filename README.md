@@ -156,26 +156,6 @@ Exportación de datos: Subir lo datos.
 Pruebas y depuración: Hacer pruebas para encontrar errores funcionales del programa y depurarlos.
 Creación manual del usuario: Explicar cómo utilizar adecuadamente el programa.
 Entrega final: Entrega definitiva del programa.
+<img alt="Gojo" height="350px" src="https://raw.githubusercontent.com/Caroo10/Trabajo-final/main/images/gojo.jpg" hspace="20px" vspace="0px">
 
-df = pd.DataFrame([
-    dict(Tarea="Actas", FechaInicio='2024-08-10', FechaFin='2024-08-18', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Entrega 1", FechaInicio='2024-09-20', FechaFin='2024-09-28', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Análisis de requisitos", FechaInicio='2024-09-30', FechaFin='2024-10-15', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Desarrollo del modelo", FechaInicio='2024-10-16', FechaFin='2024-10-23', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Exportación de datos", FechaInicio='2024-10-23', FechaFin='2024-10-30', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Pruebas y depuración", FechaInicio='2024-11-01', FechaFin='2024-11-08', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Creación manual del usuario", FechaInicio='2024-11-01', FechaFin='2024-11-15', Responsable='Santiago, Marlon, Carolina'),
-    dict(Tarea="Entrega final", FechaInicio='2024-11-16', FechaFin='2024-11-30', Responsable='Santiago, Marlon, Carolina')
-])
-df = df.sort_values(by='Tarea')
-fig = px.timeline(
-    df,
-    x_start="FechaInicio",
-    x_end="FechaFin",
-    y="Tarea",
-    color='Responsable',
-    category_orders={'Tarea': sorted(df['Tarea'].tolist(), reverse=True)}  # Ordenar las tareas alfabéticamente
-)
-fig.update_yaxes(autorange="reversed")
-fig.show()
 Para este proyecto se invertirán 84 horas trabajadas por 3 estudiantes de Ingeniería Industrial, lo que equivale a 1,68 SMLV.

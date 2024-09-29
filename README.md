@@ -83,7 +83,7 @@ Procedimientos (Entregables)
 >*  #### Resolución de Conflictos
 >>*   En caso de desacuerdos o conflictos, el grupo deberá referirse al Acta de Colaboración para resolver la situación mediante los mecanismos previamente acordados. Si no se llega a una resolución, se consultará con el del curso para mediación.
 >* **##2.Vinculos academicos y  descripción.**
->>*   Soy Santiago Giraldo, pertenezco al programa de Ingeniería Indsutrial, mi mayor fortaleza es el ingles donde tengo un certificado en B2, además tengo la habilidad de trabajar muy bien en equipo logrando una sinergia con los demás.  Soy Marlon Atehortua, curso el programa de Ingeniería Industrial, la habilidad principal mia es la resolucion de conflictos y la fortaleza  es que me adapto a las circunstancias para poder lograr los objtevios propuestos. Soy carolina Ortega, me encuentro en el programa de Ingeniería Industrial(tu habilidad y fortaleza)
+>>*   Soy Santiago Giraldo, pertenezco al programa de Ingeniería Indsutrial, mi mayor fortaleza es el ingles donde tengo un certificado en B2, además tengo la habilidad de trabajar muy bien en equipo logrando una sinergia con los demás.  Soy Marlon Atehortua, curso el programa de Ingeniería Industrial, la habilidad principal mia es la resolucion de conflictos y la fortaleza  es que me adapto a las circunstancias para poder lograr los objtevios propuestos. Soy Carolina Ortega, me encuentro en el programa de Ingeniería Industrial, considero que mi habilidad más significativa es la tranquilidad y mi fortaleza es la empatía que tengo con los demás, permitiendome trabajar en equipo de manera exitosa.
 ## **3.	Nombre del proyecto y detalles**
  El nombre del programa es Medícalo, trata sobre la gestion de turnos en un hospital, para optimizar los tiempos y los recursos necesarios para tener una mayor calidad a la hora de atender a los pacientes, dandole información detallada de su cita, 
 Describir el proyecto en pocas líneas y asignarle un nombre con una foto representativa del nombre del proyecto (no es una foto de los integrantes).
@@ -148,5 +148,34 @@ Describe los requisitos funcionales y no funcionales del software.
 
 ## **7.	Plan de proyecto**
 
-Describe las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del proyecto.
-*   El presupuesto debe tener en cuenta que no se pagará en dinero sino en tiempo de práctica de formación. Es decir, si el grupo del trabajo final lo componen tres estudiantes e invierten un total de 50 horas, estas serán pagadas a valor de práctica profesional. 1 SMLV.
+Actas: Realización de actas de entendimiento y compromiso en la fase inicial del proyecto.
+Entrega 1: Elaboración del entregable donde se describe de manera textual las intenciones y funcionabilidad del proyecto.
+Análisis de requisitos: Entendimiento de los requisitos exigidos para la correcta realización y ejecución del programa.
+Desarrollo del modelo: Producción del programa que se requiere crear.
+Exportación de datos: Subir lo datos.
+Pruebas y depuración: Hacer pruebas para encontrar errores funcionales del programa y depurarlos.
+Creación manual del usuario: Explicar cómo utilizar adecuadamente el programa.
+Entrega final: Entrega definitiva del programa.
+
+df = pd.DataFrame([
+    dict(Tarea="Actas", FechaInicio='2024-08-10', FechaFin='2024-08-18', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Entrega 1", FechaInicio='2024-09-20', FechaFin='2024-09-28', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Análisis de requisitos", FechaInicio='2024-09-30', FechaFin='2024-10-15', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Desarrollo del modelo", FechaInicio='2024-10-16', FechaFin='2024-10-23', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Exportación de datos", FechaInicio='2024-10-23', FechaFin='2024-10-30', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Pruebas y depuración", FechaInicio='2024-11-01', FechaFin='2024-11-08', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Creación manual del usuario", FechaInicio='2024-11-01', FechaFin='2024-11-15', Responsable='Santiago, Marlon, Carolina'),
+    dict(Tarea="Entrega final", FechaInicio='2024-11-16', FechaFin='2024-11-30', Responsable='Santiago, Marlon, Carolina')
+])
+df = df.sort_values(by='Tarea')
+fig = px.timeline(
+    df,
+    x_start="FechaInicio",
+    x_end="FechaFin",
+    y="Tarea",
+    color='Responsable',
+    category_orders={'Tarea': sorted(df['Tarea'].tolist(), reverse=True)}  # Ordenar las tareas alfabéticamente
+)
+fig.update_yaxes(autorange="reversed")
+fig.show()
+Para este proyecto se invertirán 84 horas trabajadas por 3 estudiantes de Ingeniería Industrial, lo que equivale a 1,68 SMLV.

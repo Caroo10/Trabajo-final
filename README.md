@@ -88,9 +88,8 @@ Procedimientos (Entregables)
  El nombre del programa es Medícalo, trata sobre la gestion de turnos en un hospital, para optimizar los tiempos y los recursos necesarios para tener una mayor calidad a la hora de atender a los pacientes, dandole información detallada de su cita.
 ## **4.	Licencia del software**
 
-Definir la licencia con la cual registra el software. https://chooser-beta.creativecommons.org/
+Esta obra está bajo licencia CC BY-SA 4.0 
 
-`Ingresar la licencia a utilizar aquí`
 ## **5.	Reporte de visión**
 **Descripción general del software**:
 

@@ -37,10 +37,7 @@
 </p>
 
 <div align="right">
-<h2> <b> Por: Julián Andrés Castillo G. </b> </h2>
-<a href="mailto:jandres.castillo@udea.edu.co"> ✉ Julian Andres Castillo Grisales </a>
-<h2> <b> Por: Yony Fernando Ceballos. </b> </h2>
-<a href="mailto:yony.ceballos@udea.edu.co"> ✉ Yony Fernando Ceballos </a>
+
   <h2> <b> Por: Carolina Ortega T. </b> </h2>
 <a href="mailto:carolina.ortegat@udea.edu.co"> ✉ Carolina Ortega Tirado </a>
   <h2> <b> Por: Santiago Giraldo C. </b> </h2>

@@ -1,0 +1,75 @@
+Manual de Usuario para Sistema de Gestión de Citas EPS PailaSalud
+-Menú Principal
+Al iniciar el programa, encontrará 6 opciones principales:
+
+Registrar Usuario
+Agendar Cita
+Consultar Cita
+Cancelar Cita
+Menú Administrador
+Salir
+
+Funciones Básicas
+1. Registrar Usuario
+
+Seleccione la opción 1 en el menú principal
+Ingrese los siguientes datos:
+
+Cédula
+Nombre
+Edad
+Teléfono
+
+
+El sistema confirmará el registro
+
+2. Agendar Cita
+
+Seleccione la opción 2 en el menú principal, importante respetar el orden de la fecha como está estipulado
+Ingrese:
+
+Cédula del usuario
+Fecha de la cita (YYYY-MM-DD)
+Hora de la cita (HH:MM)
+Especialidad médica
+
+
+El sistema confirmará la cita agendada
+
+3. Consultar Cita
+
+Seleccione la opción 3 en el menú principal
+Ingrese la cédula del usuario
+El sistema mostrará todas las citas programadas
+
+4. Cancelar Cita
+
+Seleccione la opción 4 en el menú principal
+Ingrese:
+
+Cédula del usuario
+Fecha de la cita
+Hora de la cita
+
+
+El sistema cambiará el estado de la cita, para que aparezca como cancelada
+
+5. Menú Administrador
+
+Requiere contraseña de acceso (admin123)
+Opciones disponibles:
+
+Generar Reporte Completo
+Volver al Menú Principal
+Salir del Sistema
+
+¡Muy importante!
+
+Todos los campos son obligatorios
+La cédula es el identificador principal del usuario, por lo que es muy importante
+Mantenga la contraseña del administrador en secreto
+
+6. Salir del Sistema
+
+Seleccione la opción 6 en el menú principal
+El programa se cerrará

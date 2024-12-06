@@ -29,9 +29,9 @@ Seleccione la opción 2 en el menú principal, importante respetar el orden de l
 Ingrese:
 
 Cédula del usuario
-Fecha de la cita (YYYY-MM-DD)
-Hora de la cita (HH:MM)
-Especialidad médica
+Fecha de la cita (Día-Mes-Año)
+Hora de la cita 
+Tipo de cita
 
 
 El sistema confirmará la cita agendada
